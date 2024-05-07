@@ -1,0 +1,11 @@
+{
+	"name": "@johntalton/tsl2591",
+	"version": "1.0.0",
+	"type": "module",
+	"exports": {
+		".": "./src/index.js"
+	},
+	"files": [
+		"src/**/*.js"
+	]
+}
