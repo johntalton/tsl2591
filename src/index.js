@@ -14,6 +14,10 @@ import {
 
 export * from './defs.js'
 
+/**
+ * @import { I2CAddressedBus } from '@johntalton/and-other-delights'
+ */
+
 const LENGTH_ONE_BYTE = 1
 
 const BIT_SET = 1
@@ -25,10 +29,13 @@ const MASK_THREE_BIT = 0b111
 const MASK_FOUR_BIT = 0b1111
 
 export class TSL2591 {
+	/** @type {I2CAddressedBus} */
 	#aBus
 
+	/** @param {I2CAddressedBus} aBus  */
 	static from(aBus) { return new TSL2591(aBus) }
 
+	/** @param {I2CAddressedBus} aBus  */
 	constructor(aBus) { this.#aBus = aBus }
 
 	async reset() {
