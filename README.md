@@ -1,15 +1,15 @@
-# tsl2591
+# TSL2591
+
+A light to digital converter, that has some bells and whistles.
 
 [![npm Version](http://img.shields.io/npm/v/@johntalton/tsl2591.svg)](https://www.npmjs.com/package/@johntalton/tsl2591)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/johntalton/tsl2591)
-![CI](https://github.com/johntalton/tsl2591/workflows/CI/badge.svg)
+[![CI](https://github.com/johntalton/tsl2591/actions/workflows/CI.yaml/badge.svg)](https://github.com/johntalton/tsl2591/actions/workflows/CI.yaml)
 ![GitHub](https://img.shields.io/github/license/johntalton/tsl2591)
 [![Downloads Per Month](http://img.shields.io/npm/dm/@johntalton/tsl2591.svg)](https://www.npmjs.com/package/@johntalton/tsl2591)
 ![GitHub last commit](https://img.shields.io/github/last-commit/johntalton/tsl2591)
 
-A light to digital converter, that has some bells and whistles.
-
-
+# Example
 
 ```javascript
 import { I2CAddressedBus } from '@johntalton/and-other-delights'
